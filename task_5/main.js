@@ -21,7 +21,7 @@ for(item in task)
     }
     else if(item === "maxCompleteonTime")
     {
-        console.log(`Максимально допустипое время выпол: ${task[item]}`);
+        console.log(`Максимально допустипое время выполнения: ${task[item]}`);
         continue;
     }
     console.log(task[item]);
