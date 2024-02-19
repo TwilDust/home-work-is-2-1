@@ -4,18 +4,10 @@ const points = [[1, 2], [4, 5], [177, 1]];
 
 for (let point of points)
 {
-    for (let number of point)
+    for (let num of point)
     {
-        console.log(`point number: ${number}`);
-    }
-}
-
-let sum = 0;
-for (let point of points)
-{
-    for (let number of point)
-    {
-        sum += number;
+        console.log(`num: ${num}`);
+        sum += num;
     }
 }
 console.log(`sum: ${sum}`);
