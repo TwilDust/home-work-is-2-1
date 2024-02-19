@@ -9,12 +9,7 @@ let task = {
 
 for(item in task)
 {
-    if (item === "complexity")
-    {
-        console.log(`Сложность задания: ${task[item]}`);
-        continue;
-    }
-    else if (item === "completeonTime")
+    if (item === "completeonTime")
     {
         console.log(`Предпологаемое время выполнения: ${task[item]}`);
         continue;
