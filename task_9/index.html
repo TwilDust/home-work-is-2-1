@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">Расчет стоимости продуктов</h1>
+        <div class="form" id="form">
+            <label for="milksCost">цена молока:</label>
+            <input type="text" class="product" id="milksCost">
+            <br>
+            <label for="milks">Кол-во молока:</label>
+            <input type="text" class="product" id="milks">
+            <br><br>
+            <label for="eggsCost">Цена яйца:</label>
+            <input type="text" class="product" id="eggsCost">
+            <br>
+            <label for="eggs">Кол-во молока:</label>
+            <input type="text" class="product" id="eggs">
+            <br><br>
+            <label for="bananaCost">Цена банана:</label>
+            <input type="text" class="product" id="bananaCost">
+            <br>
+            <label for="banana">Кол-во молока:</label>
+            <input type="text" class="product" id="banana">
+            <br><br>
+            <label for="potatoCost">Цена картошки:</label>
+            <input type="text" class="product" id="potatoCost">
+            <br>
+            <label for="potato">Кол-во молока:</label>
+            <input type="text" class="product" id="potato">
+            <br><br>
+            <button id="saveBtn" onclick="calculate()">Расcчитать</button>
+        </div>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
