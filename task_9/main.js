@@ -9,7 +9,7 @@ const calculate = () => {
     const inputBanana = parseInt(document.querySelector('#banana').value);
     const inputPotato = parseInt(document.querySelector('#potato').value);
     
-    const Nan = isNaN(inputMilkCost) || isNaN(inputEggCost) || isNaN(inputBananaCost) || isNaN(inputPotatoCost);
+    const Nan = isNaN(inputMilkCost) || isNaN(inputEggCost) || isNaN(inputBananaCost) || isNaN(inputPotatoCost) || isNaN(inputMilk) || isNaN(inputEgg) || isNaN(inputBanana) || isNaN(inputPotato);
     const Zero = inputMilkCost <= 0 || inputEggCost <= 0 || inputBananaCost <= 0 || inputPotatoCost <= 0;
     if (Nan)
     {
